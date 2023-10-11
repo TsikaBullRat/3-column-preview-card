@@ -79,3 +79,21 @@ p{
     border: solid 2px #fff ;
     color: #fff;
 }
+
+/*Media query*/
+
+@media screen and (max-width: 412px) {
+
+    body{
+        height: auto;
+        width: 100vw;
+        padding: 0;
+    }
+    .main-box{
+        position: absolute;
+        top: 0;
+        flex-direction: column;
+        scale: 0.9;
+    }
+    
+}
